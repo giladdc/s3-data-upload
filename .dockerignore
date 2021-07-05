@@ -1,0 +1,3 @@
+__pycache__/
+nginx.conf
+docker-compose.yml

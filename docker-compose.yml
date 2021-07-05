@@ -1,0 +1,15 @@
+version: "3.9" 
+services:
+  flaskapp:
+    build: .
+    env_file:
+      - aws.env
+    container_name: flaskapp
+    ports:
+      - 80:8080
+    networks:
+      - portal
+networks:
+  portal:
+
+
